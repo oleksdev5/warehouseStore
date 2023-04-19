@@ -31,7 +31,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'mainscreen.apps.MainscreenConfig',
     'thingctlg.apps.ThingctlgConfig',
+    'companyctlg.apps.CompanyctlgConfig',
+    'document.apps.DocumentConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
